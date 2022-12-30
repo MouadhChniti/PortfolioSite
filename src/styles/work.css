@@ -137,7 +137,7 @@ border-radius: 8px;
 @media screen and (max-width: 830px){
     .fProject{
         display: block;
-        height: 110vh;
+        height: 80vh;
         width: 90%;
     }
     .titleWork{
@@ -155,17 +155,19 @@ border-radius: 8px;
     }
     #campimg{
         width: 90%;
+        height: 320px;
     }
 
     .sProject{
         display: block;
-        height: 120vh;
+        height: 90vh;
         width: 90%;
     }
     .descSecond{
         width: 100%;
         height: 42vh;
         padding: 10px;
+        margin-bottom: 20px;
     }
     .captSecond{
         width: 100%;
@@ -174,5 +176,6 @@ border-radius: 8px;
     }
     #ogsimg{
         width: 90%;
+        height: 320px;
     }
 }

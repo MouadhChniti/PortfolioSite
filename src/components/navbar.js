@@ -18,11 +18,11 @@ const Navbar = (props) => {
          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <div className="nav" >
                
-                    <Link className="navContent" to="home" spy={true} smooth={true} offset={-100} duration={1000} onClick={closeMenu} >{"<"}HOME{"/>"}</Link>
+                    <Link className="navContent" to="home" spy={true} smooth={true} offset={-100} duration={1000} onClick={closeMenu} >{"<"}Home{"/>"}</Link>
                     <Link className="navContent" to="skills" spy={true} smooth={true} offset={-70} duration={1000} onClick={closeMenu} >Skills</Link>
                     <Link className="navContent" to="work" spy={true} smooth={true} offset={-70} duration={1000}onClick={closeMenu} >projects</Link>
                     <Link className="navContent" to="experience" spy={true} smooth={true} offset={-70} duration={1000} onClick={closeMenu} >Experience</Link>
-                    <Link className="navContent" to="contact" spy={true} smooth={true} offset={-100} duration={1000} onClick={closeMenu} >Contact</Link>
+                    <Link className="navContent" to="contact" spy={true} smooth={true} offset={-70} duration={1000} onClick={closeMenu} >Contact</Link>
                 
             </div>
             </ul>

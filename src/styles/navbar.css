@@ -4,13 +4,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    /* justify-content: space-around; */
     gap: 180px;
     align-items: center;
     height: 10vh;
     font-size: 20px;
     background: linear-gradient(-90deg, #9e65ee, #6588ea, #23a6d5, #23d5ab, #23a6d5, #6588ea,#9e65ee);
-    /* background: linear-gradient(-90deg, #9e65ee, #6588ea, #23a6d5, #23d5ab, #23a6d5, #6588ea,#9e65ee); */
     background-size: 400% 400%;
     animation: gradient 18s ease infinite;
     color: white;
@@ -27,13 +25,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    /* justify-content: space-around; */
     gap: 90px;
     align-items: center;
     height: 10vh;
     font-size: 20px;
     background: linear-gradient(-90deg, #9e65ee, #6588ea, #23a6d5, #23d5ab, #23a6d5, #6588ea,#9e65ee);
-    /* background: linear-gradient(-90deg, #9e65ee, #6588ea, #23a6d5, #23d5ab, #23a6d5, #6588ea,#9e65ee); */
     background-size: 400% 400%;
     animation: gradient 18s ease infinite;
     color: white;
@@ -83,6 +79,7 @@
         justify-content: space-around;
         gap: 0px;
         width: 87%;
+        
     }
     .iconMob{
         display: block;
@@ -95,6 +92,7 @@
     }
     .nav{
         display: block;
+        background: none;
     }
     .nav-menu {
         position: fixed;
@@ -116,6 +114,7 @@
             width: 60%;
             display: flex;
             justify-content: center;
+            color: #167193; ;
     }
 
     .nav-menu.active {

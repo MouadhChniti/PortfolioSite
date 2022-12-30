@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .contactTitle{
@@ -59,7 +60,7 @@ textarea{
     .form-align{
         width: 80%;
     }
-    .form{
+    .formm{
         width: 90%;
     }
 
