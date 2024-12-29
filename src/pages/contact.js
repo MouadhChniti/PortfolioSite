@@ -10,16 +10,16 @@ import emailjs from 'emailjs-com';
 const Contact = (props) => {
     const contact = useRef(null);
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
 
-        emailjs.sendForm('service_49xh3dd', 'template_i6oc1sn', e.target, '9BQLykWiU2N8nXUDS')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
+    //     emailjs.sendForm('service_49xh3dd', 'template_i6oc1sn', e.target, '9BQLykWiU2N8nXUDS')
+    //         .then((result) => {
+    //             console.log(result.text);
+    //         }, (error) => {
+    //             console.log(error.text);
+    //         });
+    // };
 
     return (
         <div data-aos="fade-up" className='all-contact' ref={contact} id='contact'>
@@ -36,8 +36,19 @@ const Contact = (props) => {
                         <textarea placeholder='message' name='message'></textarea>
                     </div>
                     <div data-aos="fade-right" className='btnAlign'>
-                        <button className='sendbtn' onClick={sendEmail}>send</button>
+                        <div data-aos="fade-right" className='btnAlign'>
+                            <button
+                                className='sendbtn'
+                                onClick={() => {
+                                    window.open('mailto:example@example.com?subject=Your Subject&body=Your email body text here.');
+                                }}
+                            >
+                                send
+                            </button>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
 
